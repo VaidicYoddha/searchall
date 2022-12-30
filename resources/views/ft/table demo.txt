@@ -1,0 +1,40 @@
+  <table class="datatables-ajax table table-responsive">
+                        <thead>
+                            <tr>
+                                <th>id</th>
+                                <td>
+                                    <table>
+                                        <tr>
+                                            <td>
+                                            2
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                            2
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                            2
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                            2
+                                            </td>
+                                        </tr>
+
+                                    </table>
+                                </td>
+
+                            </tr>
+
+                        </thead>
+                        <tbody>
+                            <tr>
+
+                            </tr>
+                            <tr></tr>
+                        </tbody>
+                    </table>
