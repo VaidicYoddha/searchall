@@ -41,6 +41,10 @@ Searchall
                             <div class="">
                               <div class="card-header border-bottom">
                                 <h4 class="card-title">Result : {{ $search }}</h4>
+                                <div>
+                                    <a href="{{ url('/') }}"
+                                   class="btn btn-dark float-between" >Back </a>
+                               </div>
                               </div>
                               @foreach ($pincode as $item)
                               <div class="card card-body mt-1">

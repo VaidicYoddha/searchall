@@ -38,7 +38,7 @@ Searchall
                                     </div>
                                 </div>
                             </div>
-                            <div class="card">
+                            {{-- <div class="card">
                                 <div class="card-header border-bottom">
                                   <h4 class="card-title">Ifscode: <mark>{{ $search }} </mark> </h4>
                                 </div>
@@ -49,10 +49,14 @@ Searchall
                                       </thead>
                                   </table>
                                 </div>
-                              </div>
+                              </div> --}}
                             <div class="">
                               <div class="card-header border-bottom">
                                 <h4 class="card-title">Ifscode: <mark>{{ $search }} </mark> </h4>
+                                <div>
+                                    <a href="{{ url('/') }}"
+                                   class="btn btn-dark float-between" >Back </a>
+                               </div>
                               </div>
                               @foreach ($ifsc as $item)
                               <div class="card card-body mt-1">
